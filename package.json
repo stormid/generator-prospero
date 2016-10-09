@@ -1,7 +1,7 @@
 {
   "name": "generator-prospero",
-  "version": "1.0.0-beta5-001",
-  "description": "Storm Bespoke Solution Framework for .NET Core",
+  "version": "1.0.0-beta6",
+  "description": "Yeoman template for Prospero",
   "homepage": "https://github.com/stormid/generator-prospero",
   "author": {
     "name": "Nero Sule",
