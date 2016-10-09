@@ -1,0 +1,1 @@
+dotnet <%= appname %>.Service.dll -w
