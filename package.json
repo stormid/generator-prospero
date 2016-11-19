@@ -1,6 +1,6 @@
 {
   "name": "generator-prospero",
-  "version": "1.0.0-beta7",
+  "version": "1.0.0-preview.1",
   "description": "Yeoman template for Prospero",
   "homepage": "https://github.com/stormid/generator-prospero",
   "author": {

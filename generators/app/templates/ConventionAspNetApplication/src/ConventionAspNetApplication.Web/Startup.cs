@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Prospero.Application.AspNet.Conventions;
 using Prospero.Conventions.AspNet;
-using Prospero.Conventions.AspNet.Mvc;
+using Prospero.Conventions.AspNet.Mvc.Install;
 using Prospero.DataAccess.Conventions;
 using Prospero.DataAccess.EFCore.Conventions;
 using Prospero.Extensions.AspNet.Developer.Conventions;

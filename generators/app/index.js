@@ -19,10 +19,11 @@ module.exports = yeoman.Base.extend({
         {
           name:'Create new Solution (creates a directory)',
           value:'new'
-        },{
-          name:'Add a Project (inside {current directory}/src)',
-          value:'add'
         }
+        // ,{
+        //   name:'Add a Project (inside {current directory}/src)',
+        //   value:'add'
+        // }
       ]
     },{
       when:function(props){ return (/new/).test(props.action); },
@@ -82,7 +83,7 @@ module.exports = yeoman.Base.extend({
     ];
     
     var coreFiles = [
-      'ConventionAspNetApplication.Core.xproj',
+      {'ConventionAspNetApplication.Core.xproj': appname + '.Core.xproj'},
       'project.json',
       {'ConventionAspNetApplicationModelBuilderAlteration.cs': appname + 'ModelBuilderAlteration.cs'},
       'Properties/AssemblyInfo.cs'
