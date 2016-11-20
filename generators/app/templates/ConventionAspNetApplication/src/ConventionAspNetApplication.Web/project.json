@@ -32,6 +32,7 @@
     "Prospero.DataAccess.EFCore.Conventions": "1.0.0-*",
     "Prospero.Extensions.EntityFramework.Conventions.SqlServer": "1.0.0-*",
     "Prospero.Extensions.EntityFramework.Conventions.Migrations": "1.0.0-*",
+    "Prospero.Extensions.Logging.Conventions": "1.0.0-*",
     "<%= appname %>.Core": "*",
     "FluentModelBuilder.Relational": "1.4.1"
   },

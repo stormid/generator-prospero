@@ -9,6 +9,7 @@ using Prospero.DataAccess.Conventions;
 using Prospero.DataAccess.EFCore.Conventions;
 using Prospero.Extensions.AspNet.Developer.Conventions;
 using Prospero.Extensions.AspNet.StaticFiles.Conventions;
+using Prospero.Extensions.Logging.Conventions;
 using Prospero.Extensions.EntityFramework.Conventions;
 using Prospero.Extensions.EntityFramework.Conventions.SqlServer;
 
@@ -33,6 +34,7 @@ namespace <%= appname %>.Web
                             .AddEnvironmentVariables())
                 .AddAssemblyOf<<%= appname %>ModelBuilderAlteration>()
                 .AddAssemblyOf<Startup>()
+                .EnableLogging()
                 .EnableDeveloperExceptionPage()
                 .EnableBrowserLink()
                 .EnableStaticFiles()
